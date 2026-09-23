@@ -52,24 +52,24 @@
 - ESC            Go to main menu.
 
 ----- MECHANICS -----
-- Every tick, the current piece falls by 1 tile.
+- Every tick, the current piece falls by 1 tile:
   When it reaches the ground,
   it remains movable for the duration of the lock-delay before being frozen. When a piece is frozen,
   a new one spawns in its place, which can be seen from the next-piece display.
 
-  If the piece is rotated into a position which is higher than the ground,
-  the piece won't be frozen until reaching the ground again and the lock-delay passing.
+    If the piece is rotated into a position which is higher than the ground,
+    the piece won't be frozen until reaching the ground again and the lock-delay passing.
 
 - If a piece is frozen and it fills one or multiple lines, those lines are cleared,
   and everything above them falls down by the number of lines that were cleared.
   Every 10 cleared lines, there is a level-up, which increases the speed at which a piece falls.
 
-- Every piece frozen is worth 50 score.
+- Every piece frozen is worth 50 score:
 
-  The amount of score gained from line clears is based on the formula:
-  (CLEARED ^ 2) * 100 * (1 + 0.075 * LEVEL),
-  where CLEARED is the number of lines that were just cleared, and LEVEL is the current level.
-  The score is always rounded down to the nearest integer.
+    The amount of score gained from line clears is based on the formula:
+    (CLEARED ^ 2) * 100 * (1 + 0.075 * LEVEL),
+    where CLEARED is the number of lines that were just cleared, and LEVEL is the current level.
+    The score is always rounded down to the nearest integer.
 
   This means possible line-clears are worth the following:
   1 Line:   100-> 107-> 115...;
