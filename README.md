@@ -1,5 +1,7 @@
 ---------- HOW TO PLAY ----------
+
 (SOME OF THESE CONTROLS MAY NOT APPLY TO EARILER VERSIONS!!!)
+
 ----- TERMINOLOGY -----
 
 - Btn cursor     (Shortening of "Button cursor") Cursor in main menu,
