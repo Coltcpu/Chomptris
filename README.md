@@ -1,5 +1,5 @@
 ---------- HOW TO PLAY ----------
-
+(SOME OF THESE CONTROLS MAY NOT APPLY TO EARILER VERSIONS!!!)
 ----- TERMINOLOGY -----
 
 - Btn cursor     (Shortening of "Button cursor") Cursor in main menu,
@@ -38,7 +38,7 @@
   If there is a held piece, the current piece is swapped with the held piece.
   In both cases, the position of the current piece is reset to the top of the arena.
 
-                     There can only be one swap/hold per round (until the current piece is frozen).
+  There can only be one swap/hold per round (until the current piece is frozen).
 
 ----- OTHER CONTROLS -----
 
@@ -48,8 +48,8 @@
 - CTRL+H         Print this text.
                      Press again to hide this text.
 - ESC            Go to main menu.
------ MECHANICS -----
 
+----- MECHANICS -----
 - Every tick, the current piece falls by 1 tile.
   When it reaches the ground,
   it remains movable for the duration of the lock-delay before being frozen. When a piece is frozen,
