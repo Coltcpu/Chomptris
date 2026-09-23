@@ -34,9 +34,9 @@
 
 - C/M            Hold or swap to a held piece.
 
-                     If there is no held piece, the current piece is stored and the next one grabbed.
-                     If there is a held piece, the current piece is swapped with the held piece.
-                     In both cases, the position of the current piece is reset to the top of the arena.
+  If there is no held piece, the current piece is stored and the next one grabbed.
+  If there is a held piece, the current piece is swapped with the held piece.
+  In both cases, the position of the current piece is reset to the top of the arena.
 
                      There can only be one swap/hold per round (until the current piece is frozen).
 
