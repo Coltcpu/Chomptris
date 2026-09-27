@@ -88,3 +88,5 @@
   All three of these sources of score can happen within a single tick.
 
 - If a piece spawns in and immediately overlaps any frozen piece, the game ends.
+
+  IF YOU WANT TO VIEW ANY VERSIONS PAST V1.5.1 GO CHECK OUT THE OFFICAL UPLOADER <a href="https://github.com/Skept1cal/Chomptris">here</a> (The woman themselves, Chomper!)
